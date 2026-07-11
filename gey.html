@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LGBTQ+ Awareness</title>
+<link rel="stylesheet" href="gey.css">
+</head>
+<body>
+
+<div class="card">
+
+    <img src="gey.jpg" alt="Speaker" class="profile">
+
+    <h1>Understanding LGBTQ+</h1>
+
+    <p>
+        LGBTQ+ stands for Lesbian, Gay, Bisexual, Transgender, Queer (or Questioning), and the "+" includes many other identities. Every person deserves respect, dignity, and equal opportunities regardless of their sexual orientation or gender identity.
+    </p>
+
+    <a href="profile.html" class="btn">Learn More</a>
+
+</div>
+    </p>
+
+
+<script>
+const isChrome =
+/Chrome/.test(navigator.userAgent) &&
+/Google Inc/.test(navigator.vendor) &&
+!/Edg|OPR|Brave/.test(navigator.userAgent);
+
+if (!isChrome) {
+    document.body.innerHTML = `
+    <div class="card">
+        <h1>Google Chrome Required</h1>
+        <p>
+            This website is available only in
+            <strong>Google Chrome</strong>.
+        </p>
+    </div>
+    `;
+}
+</script>
+
+</body>
+</html>
